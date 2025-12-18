@@ -14,6 +14,17 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "lavender",
+        "pastel",
+        "dark",
+        "purple",
+        "cute",
+        "unicorn"
+    ],
+    "license": "MIT",
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
