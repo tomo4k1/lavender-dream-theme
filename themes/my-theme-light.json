@@ -1,0 +1,122 @@
+{
+    "name": "Pastel Dream 🦄",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFAFF",
+        "editor.foreground": "#5D4B75",
+        "activityBar.background": "#F3E6FF",
+        "activityBar.foreground": "#5D4B75",
+        "sideBar.background": "#FFFAFF",
+        "sideBar.foreground": "#5D4B75",
+        "statusBar.background": "#5D4B75",
+        "statusBar.foreground": "#FFFFFF",
+        "editorGroupHeader.tabsBackground": "#F3E6FF",
+        "tab.activeBackground": "#FFFAFF",
+        "tab.activeForeground": "#5D4B75",
+        "tab.inactiveBackground": "#F3E6FF",
+        "titleBar.activeBackground": "#F3E6FF",
+        "titleBar.activeForeground": "#5D4B75"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments 💭",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#A89CC8",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keywords 🔑",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#B589D6",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Functions & Methods 🛠️",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#9B72CF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Classes, Types & Interfaces 🏷️",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "support.class",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#FF9EBC"
+            }
+        },
+        {
+            "name": "Strings 🧵",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#FFB7B2"
+            }
+        },
+        {
+            "name": "Variables & Constants 📦",
+            "scope": [
+                "variable",
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#5D4B75"
+            }
+        },
+        {
+            "name": "Object Keys & Symbols 🔑",
+            "scope": [
+                "meta.object-literal.key",
+                "constant.other.symbol",
+                "constant.other.symbol.ruby",
+                "constant.other.symbol.hash-key.ruby",
+                "support.type.property-name",
+                "entity.name.tag.yaml",
+                "variable.other.constant.ruby"
+            ],
+            "settings": {
+                "foreground": "#E27D60",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Tags (HTML/XML) 🏷️",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#B589D6"
+            }
+        },
+        {
+            "name": "Attributes 🔧",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#FF9EBC"
+            }
+        }
+    ]
+}

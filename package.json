@@ -1,0 +1,31 @@
+{
+    "name": "lavender-dream-theme",
+    "displayName": "Lavender Dream Theme 💜",
+    "description": "A cute and chill theme based on lavender colors. Created by Gal Engineer.",
+    "version": "0.0.1",
+    "publisher": "gal-engineer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomo4k1/lavender-dream-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pastel Dream 🦄",
+                "uiTheme": "vs",
+                "path": "./themes/my-theme-light.json"
+            },
+            {
+                "label": "Midnight Chill 🌃",
+                "uiTheme": "vs-dark",
+                "path": "./themes/my-theme-dark.json"
+            }
+        ]
+    }
+}

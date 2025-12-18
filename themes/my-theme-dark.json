@@ -1,0 +1,104 @@
+{
+    "name": "Midnight Chill 🌃",
+    "settings": {
+        "foreground": "#FFCCE1"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments 💭",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#6C6385",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keywords 🔑",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#C4A7E7",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Functions & Methods 🛠️",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#9CCFD8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Classes, Types & Interfaces 🏷️",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "support.class",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#EBBCBA"
+            }
+        },
+        {
+            "name": "Strings 🧵",
+            "scope": [
+                "string",
+                "string.template"
+            ],
+            "settings": {
+                "foreground": "#FFCCE1"
+            }
+        },
+        {
+            "name": "Variables 📦",
+            "scope": [
+                "variable",
+                "variable.parameter",
+                "variable.other.object"
+            ],
+            "settings": {
+                "foreground": "#E0D4FC"
+            }
+        },
+        {
+            "name": "Constants & Numbers 🔢",
+            "scope": [
+                "constant",
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#F6C177"
+            }
+        },
+        {
+            "name": "Tags (HTML/XML) 🏷️",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#EB6F92"
+            }
+        },
+        {
+            "name": "Attributes 🔧",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#F6C177"
+            }
+        }
+    ]
+}
